@@ -94,6 +94,7 @@ root {
   
   .btn:hover {
     cursor: pointer;
+
     transform: translateY(-0.1rem);
     transition: transform 150ms;
   }
@@ -108,10 +109,13 @@ root {
     width: 300px;
     background-color:blue;
     color:white ;
+    border-radius: 8px 8px 8px 0px;
     padding: 10px;
     margin-left: 80px;
     margin-bottom: 30px;
-  }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer; 
+    border: none;
   
   /* FORMS */
   form {
